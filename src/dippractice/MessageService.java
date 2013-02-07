@@ -6,6 +6,7 @@ package dippractice;
  */
 public class MessageService {
     private static final String MSG = "Hello";
+     
     
     public void outputMsg(OutputStrategy out) {
         out.outputMsg(MSG);
