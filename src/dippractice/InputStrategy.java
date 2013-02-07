@@ -6,6 +6,6 @@ package dippractice;
  */
 public interface InputStrategy {
 
-    String getMsg();
+    public abstract String getMsg();
     
 }

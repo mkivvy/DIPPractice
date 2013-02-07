@@ -9,7 +9,9 @@ public class ConsoleInput implements InputStrategy {
         
         System.out.println("Enter a message to send: ");
         
-        return (keyboard.nextLine());
+        String newMsg = keyboard.nextLine();
+        
+        return newMsg;
         
     }
 }

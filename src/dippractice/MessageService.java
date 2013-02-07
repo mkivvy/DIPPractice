@@ -5,11 +5,15 @@ package dippractice;
  * @author Mary
  */
 public class MessageService {
-    private static final String MSG = "Hello";
-     
+    private String msg = "Hello";
+    
+    public void setMsg (InputStrategy in) {
+        msg = in.getMsg();
+//        System.out.println("DEBUG: " + msg);
+    }
     
     public void outputMsg(OutputStrategy out) {
-        out.outputMsg(MSG);
+        out.outputMsg(msg);
 //        
 //        System.out.println(MSG); //detail - depend instead on abstraction
         //sout makes this rigid
