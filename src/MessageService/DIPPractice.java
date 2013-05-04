@@ -1,4 +1,4 @@
-package dippractice;
+package MessageService;
 public class DIPPractice {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dippractice;
+package MessageService;
 
 import javax.swing.JOptionPane;
 

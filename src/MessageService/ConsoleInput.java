@@ -1,4 +1,4 @@
-package dippractice;
+package MessageService;
 
 import java.util.Scanner;
 
